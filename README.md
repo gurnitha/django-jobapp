@@ -9,7 +9,6 @@ Github: https://github.com/gurnitha/django-jobapp
 
 #### 01.1 Create django project 'config'
 
-
 		Acitivities:
 
         (venv3841) λ django-admin startproject config .
@@ -21,3 +20,20 @@ Github: https://github.com/gurnitha/django-jobapp
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+#### 01.2 Create django app 'apps/job
+
+		Acitivities:
+
+        1. (venv3841) λ mkdir apps\job                                
+        2. (venv3841) λ django-admin startapp job apps\job            
+                                                           
+        modified:   README.md                              
+        new file:   apps/job/__init__.py                   
+        new file:   apps/job/admin.py                      
+        new file:   apps/job/apps.py                       
+        new file:   apps/job/migrations/__init__.py        
+        new file:   apps/job/models.py                     
+        new file:   apps/job/tests.py                      
+        new file:   apps/job/views.py                      
